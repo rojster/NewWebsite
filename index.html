@@ -8,20 +8,34 @@
     <title>Test Page</title>
 </head>
 <body>
-    <h1>Homepage</h1>
-	<a href="about.html">About</a>
-    <h2>I am trying to set up a page how I would like it</h2>
-    <p>I want to be able to move information around on the page to make it look aesthetically pleasing</p>
-
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
     <div class="dropdown">
-        <button class="dropbtn">Resources</button>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
+      <button class="dropbtn">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Option 1</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact Me</a>
       </div>
+    </div>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+    <h2 style="font-family:courier; text-align: center; font-size: 300%;">I am trying to set up a page how I would like it</h2>
+    <p style="text-align: center; font-size: 160%;">I want to be able to move information around on the page to make it look aesthetically pleasing</p>
+    <p style="text-align: center">Please take a moment to appreciate Mac Miller as a Balloon.</p>
+    <img src="1HAG2WN.jpg" alt="Mac as a Balloon" class="center" style="width:250px;height:550px;" usemap="#workmap">
+    <map name="workmap">
+      <area shape="circle" coords="125, 375, 110" alt ="Mac's Website" href="https://www.macmillerswebsite.com/">
+    </map>
 
 
+
+    
 </body>
 </html> 
